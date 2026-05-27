@@ -17,83 +17,9 @@
 [comment]: # (Additionally the link to the official instruction: https://pages.github.com/)
 
 [comment]: # (In this section you can define rules for special blocks or formats.)
-<style>
-.generalRules {
-  display: flex;
-  font-family: "Times New Roman", Times, serif;
-  flex-direction:column;
-  max-width: 960px
-}
-h1 {
-  font-style: italic;
-}
-.titleTextContent {
-  border: 4px solid; 
-}
-img {
-  max-width: 100%
-}
-.titleImage {
-  flex-basis: 40%;
-}
-.titleText {
-  text-align: justify;
-  font-size: 18px;
-  padding: 15px;
-  font-weight: bold;
-}
-.sectionHeader {
-  padding-top: 20px;
-  text-align: left;
-  font-size: 35px;
-  font-weight: 500;
-  color: #002FBD;
-  line-height: 45px;
-}
-.horizontalLine {
-  width: 100%;
-  border-top:4px solid #002FBD; 
-  padding-bottom: 10px;
-}
-.sectionTextBox {
-  border: 1px solid; 
-}
-.sectionText {
-  text-align: justify;
-  font-size: 18px;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  font-weight: normal;
-}
-.spaceBetween {
-  padding: 10px;
-}
-.downloadContainer {
-  background-color: #002FBD;
-  height: 150px;
-  width: 100%;
-  color: white;
-  font-size: 40px;
-  text-align: center;
-}
-.downloadbutton {
-  background-color: #002FBD;
-  border: 5px solid white;
-  border-left: 50px solid white;
-  border-right: 50px solid white;
-  color: white;
-  height: 50px;
-  width: 100%;
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 25px;
-}
-.downloadbutton:hover {
-  background-color: #E2C838;
-}
-</style>
+<head>
+<link rel="stylesheet" href="sytle.css">
+</head>
 
 [comment]: # (Here starts the section where you are intented to insert your work.)
 <body>
