@@ -77,7 +77,7 @@ img {
 .summaryBox {
   display: grid; 
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;"
+  gap: 2rem;
 }
 .summaryHeading {
   font-weight: bold; 
@@ -111,4 +111,20 @@ img {
 }
 .downloadbutton:hover {
   background-color: #12486d;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
